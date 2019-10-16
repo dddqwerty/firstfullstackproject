@@ -1,0 +1,42 @@
+[debug] [2019-10-15T01:05:19.102Z] ----------------------------------------------------------------------
+[debug] [2019-10-15T01:05:19.104Z] Command:       /usr/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2019-10-15T01:05:19.104Z] CLI Version:   7.5.0
+[debug] [2019-10-15T01:05:19.104Z] Platform:      linux
+[debug] [2019-10-15T01:05:19.104Z] Node Version:  v8.10.0
+[debug] [2019-10-15T01:05:19.104Z] Time:          Tue Oct 15 2019 09:05:19 GMT+0800 (+08)
+[debug] [2019-10-15T01:05:19.104Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-15T01:05:19.109Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-15T01:05:19.109Z] > authorizing via signed-in user
+[debug] [2019-10-15T01:05:19.109Z] [iam] checking project projectx-ad84f for permissions ["firebase.projects.get"]
+[debug] [2019-10-15T01:05:19.110Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/projectx-ad84f:testIamPermissions  
+
+[debug] [2019-10-15T01:05:20.419Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-15T01:05:20.443Z] [functions] Using node@8 from host.
+[info] ✔  functions: Emulator started at http://localhost:5000
+[debug] [2019-10-15T01:05:20.718Z] [functions] Watching "/home/dddqwerty/projects/firstfullstackproject/functions" for Cloud Functions...
+[debug] [2019-10-15T01:05:21.148Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"/home/dddqwerty/projects/firstfullstackproject/functions","node_version":"8.10.0"}
+[debug] [2019-10-15T01:05:21.149Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-15T01:05:21.150Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-15T01:05:21.150Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:05:21.151Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:05:21.409Z] [functions[api]] http function initialized (http://localhost:5000/projectx-ad84f/asia-east2/api).
+[info] i  functions: Loaded functions: api
+[debug] [2019-10-15T01:06:12.874Z] DEBUG: File /home/dddqwerty/projects/firstfullstackproject/functions/index.js changed, reloading triggers
+[debug] [2019-10-15T01:06:14.472Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"/home/dddqwerty/projects/firstfullstackproject/functions","node_version":"8.10.0"}
+[debug] [2019-10-15T01:06:14.472Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-15T01:06:14.477Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-15T01:06:14.478Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:06:14.480Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:06:19.064Z] DEBUG: File /home/dddqwerty/projects/firstfullstackproject/functions/index.js changed, reloading triggers
+[debug] [2019-10-15T01:06:20.553Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"/home/dddqwerty/projects/firstfullstackproject/functions","node_version":"8.10.0"}
+[debug] [2019-10-15T01:06:20.553Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-15T01:06:20.556Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-15T01:06:20.557Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:06:20.558Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:06:21.883Z] DEBUG: File /home/dddqwerty/projects/firstfullstackproject/functions/index.js changed, reloading triggers
+[debug] [2019-10-15T01:06:23.321Z] DEBUG: [runtime-status] Functions runtime initialized. {"cwd":"/home/dddqwerty/projects/firstfullstackproject/functions","node_version":"8.10.0"}
+[debug] [2019-10-15T01:06:23.321Z] DEBUG: [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-15T01:06:23.323Z] DEBUG: [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-10-15T01:06:23.324Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-10-15T01:06:23.325Z] DEBUG: [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/dddqwerty/projects/firstfullstackproject/functions/node_modules/firebase-functions/lib/index.js"}

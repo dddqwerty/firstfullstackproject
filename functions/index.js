@@ -131,12 +131,13 @@ app.post("/signup", (req, res) => {
       if (err.code === "auth/email-already-in-use") {
         return res.status(400).json({ email: "already taken" });
       } else {
-        return res.status(500).json({ error: err.code });
+        return res.status(500).json({ check: "pzda" });
       }
     });
 });
 
-app.post("login", (req, res) => {
+app.post("/login", (req, res) => {
+  
   const user = {
     email: req.body.email,
     password: req.body.password
@@ -152,7 +153,7 @@ app.post("login", (req, res) => {
     .auth()
     .signInWithEmailAndPassword(user.email, user.password)
     .then(data => {
-      return data.getIdToken();
+      return data.user.getIdToken();
     })
     .then(token => {
       return res.json({ token });
